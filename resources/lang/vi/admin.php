@@ -35,22 +35,22 @@ return [
     'forum' => [
         'forum-covers' => [
             'index' => [
-                'delete' => 'Delete',
+                'delete' => 'Xóa',  // Delete
 
                 'forum-name' => 'Forum #:id: :name',
 
-                'no-cover' => 'No cover set',
+                'no-cover' => 'No cover set',  // No cover set
 
                 'submit' => [
-                    'save' => 'Save',
-                    'update' => 'Update',
+                    'save' => 'Lưu',  // Save
+                    'update' => 'Cập nhật',  // Update
                 ],
 
-                'title' => 'Forum Covers List',
+                'title' => 'Danh sách bìa của Forum',  //Forum Covers List
 
                 'type-title' => [
-                    'default-topic' => 'Default Topic Cover',
-                    'main' => 'Forum Cover',
+                    'default-topic' => 'Bìa chủ đề mặc định,'  // Default Topic Cover
+                    'main' => 'Bìa Forum',  // Forum Cover
                 ],
             ],
         ],
@@ -64,12 +64,12 @@ return [
 
     'pages' => [
         'root' => [
-            'title' => 'Admin Console Thingy',
+            'title' => 'Đồ chơi điều khiển của Admin',  // Admin Console Thingy
 
             'sections' => [
-                'forum' => 'Forum',
-                'general' => 'General',
-                'store' => 'Store',
+                'forum' => 'Forum',  // Forum
+                'general' => 'Thông tin chung', // General
+                'store' => 'Cửa Hàng',  // Store
             ],
         ],
     ],
@@ -77,15 +77,15 @@ return [
     'store' => [
         'orders' => [
             'index' => [
-                'title' => 'Order Listing',
+                'title' => 'Danh Sách Đơn Hàng',  // Order Listing
             ],
         ],
     ],
 
     'users' => [
         'restricted_banner' => [
-            'title' => 'This user is currently restricted.',
-            'message' => '(only admins can see this)',
+            'title' => 'Người dùng đang bị restricted.',  // This user is currently restricted.
+            'message' => '(chỉ có admins có thể thấy)',  // (only admins can see this)
         ],
     ],
 
