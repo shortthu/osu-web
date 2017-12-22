@@ -39,7 +39,7 @@ return [
 
                 'forum-name' => 'Forum #:id: :name',
 
-                'no-cover' => 'No cover set',  // No cover set
+                'no-cover' => 'Không có bộ bìa',  // No cover set
 
                 'submit' => [
                     'save' => 'Lưu',  // Save
