@@ -43,10 +43,10 @@ return [
 
                 'submit' => [
                     'save' => 'Lưu',  // Save
-                    'update' => 'Cập nhật',  // Update
+                    'update' => 'Cập Nhật',  // Update
                 ],
 
-                'title' => 'Danh sách bìa của Forum',  //Forum Covers List
+                'title' => 'Danh Sách Bìa Của Forum',  //Forum Covers List
 
                 'type-title' => [
                     'default-topic' => 'Bìa chủ đề mặc định,'  // Default Topic Cover
@@ -64,12 +64,12 @@ return [
 
     'pages' => [
         'root' => [
-            'title' => 'Đồ chơi điều khiển của Admin',  // Admin Console Thingy
+            'title' => 'Đồ Chơi Điều Khiển Của Admin',  // Admin Console Thingy
 
             'sections' => [
                 'forum' => 'Forum',  // Forum
                 'general' => 'Thông tin chung', // General
-                'store' => 'Cửa Hàng',  // Store
+                'store' => 'Cửa hàng',  // Store
             ],
         ],
     ],

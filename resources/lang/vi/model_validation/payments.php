@@ -26,7 +26,7 @@ return [
     'order' => [
         'invalid' => 'Đơn đặt hàng không hợp lệ',  // Order is not valid
         'items' => [
-            'virtual_only' => '`thanh toán :provider` không hợp lệ cho các vật dụng',  // :provider` payment is not valid for physical items.
+            'virtual_only' => '`thanh toán :provider` không hợp lệ cho các vật phẩm thật',  // :provider` payment is not valid for physical items.
         ],
         'status' => [
             'not_checkout' => 'Đang cố chấp nhận thanh toán cho mặt hàng trong trạng thái lỗi `:state`.',  // Trying to accept payment for an order in the wrong state `:state`.
@@ -50,3 +50,4 @@ return [
         'user_id_mismatch' => 'external_id chứa sai ID của người dùng',  // external_id contains wrong user id'
     ],
 ];
+ 

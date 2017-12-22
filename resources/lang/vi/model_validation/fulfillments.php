@@ -20,7 +20,7 @@
 
 return [
     'username_change' => [
-        'only_one' => 'Bạn chỉ cho đổi tên tài khoản 1 lần cho mỗi đơn đặt hàng', //only 1 username change allowed per order fulfillment.
+        'only_one' => 'Chỉ được đổi tên tài khoản 1 lần cho mỗi đơn đặt hàng', //only 1 username change allowed per order fulfillment.
         'insufficient_paid' => 'Không đủ tiền đổi tên tài khoản(:expected > :actual)', // Username change cost exceeds amount paid (:expected > :actual)
         'reverting_username_mismatch' => 'Tên tài khoản hiện tại (:current) không giống với tên đã đổi, không thể hủy tên (:username)', // Current username (:current) is not the same as change to revoke (:username)
     ],
