@@ -50,4 +50,3 @@ return [
         'user_id_mismatch' => 'external_id chứa sai ID của người dùng',  // external_id contains wrong user id'
     ],
 ];
- 
