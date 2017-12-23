@@ -47,6 +47,6 @@ return [
     ],
     'order_number' => [
         'malformed' => 'ID giao dịch của đơn hàng nhận được không bình thường',  // Received order transaction id is malformed
-        'user_id_mismatch' => 'external_id chứa sai ID của người dùng',  // external_id contains wrong user id'
+        'user_id_mismatch' => "external_id chứa sai ID của người dùng",  // external_id contains wrong user id'
     ],
 ];
