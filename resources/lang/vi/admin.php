@@ -50,7 +50,7 @@ return [
 
                 'type-title' => [
                     'default-topic' => 'Bìa chủ đề mặc định,'  // Default Topic Cover
-                    'main' => 'Bìa Forum',  // Forum Cover
+                    'main' => "Bìa Forum",  // Forum Cover
                 ],
             ],
         ],
