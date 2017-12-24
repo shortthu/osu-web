@@ -21,7 +21,14 @@
 return [
 
     'beatmapsets' => [
+        'covers' => [
+            'regenerate' => 'Regenerate',
+            'regenerating' => 'Regenerating...',
+            'remove' => 'Remove',
+            'removing' => 'Removing...',
+        ],
         'show' => [
+            'covers' => 'Manage Beatmapset Covers',
             'discussion' => [
                 '_' => 'Modding v2',
                 'activate' => 'kích hoạt',
@@ -35,22 +42,22 @@ return [
     'forum' => [
         'forum-covers' => [
             'index' => [
-                'delete' => 'Xóa',  // Delete
+                'delete' => 'Delete',
 
                 'forum-name' => 'Forum #:id: :name',
 
-                'no-cover' => 'Không có bộ bìa',  // No cover set
+                'no-cover' => 'No cover set',
 
                 'submit' => [
-                    'save' => 'Lưu',  // Save
-                    'update' => 'Cập Nhật',  // Update
+                    'save' => 'Save',
+                    'update' => 'Update',
                 ],
 
-                'title' => 'Danh Sách Bìa Của Forum',  //Forum Covers List
+                'title' => 'Forum Covers List',
 
                 'type-title' => [
-                    'default-topic' => 'Bìa chủ đề mặc định,'  // Default Topic Cover
-                    'main' => "Bìa Forum",  // Forum Cover
+                    'default-topic' => 'Default Topic Cover',
+                    'main' => 'Forum Cover',
                 ],
             ],
         ],
@@ -64,12 +71,12 @@ return [
 
     'pages' => [
         'root' => [
-            'title' => 'Đồ Chơi Điều Khiển Của Admin',  // Admin Console Thingy
+            'title' => 'Admin Console Thingy',
 
             'sections' => [
-                'forum' => 'Forum',  // Forum
-                'general' => 'Thông tin chung', // General
-                'store' => 'Cửa hàng',  // Store
+                'forum' => 'Forum',
+                'general' => 'General',
+                'store' => 'Store',
             ],
         ],
     ],
@@ -77,15 +84,15 @@ return [
     'store' => [
         'orders' => [
             'index' => [
-                'title' => 'Danh Sách Đơn Hàng',  // Order Listing
+                'title' => 'Order Listing',
             ],
         ],
     ],
 
     'users' => [
         'restricted_banner' => [
-            'title' => 'Người dùng đang bị restricted.',  // This user is currently restricted.
-            'message' => '(chỉ có admins có thể thấy)',  // (only admins can see this)
+            'title' => 'This user is currently restricted.',
+            'message' => '(only admins can see this)',
         ],
     ],
 
