@@ -42,7 +42,7 @@ return [
     'forum' => [
         'forum-covers' => [
             'index' => [
-                'delete' => 'Delete',
+                'delete' => 'Xóa',
 
                 'forum-name' => 'Diễn đàn #:id: :name',
 
@@ -56,7 +56,7 @@ return [
                 'title' => 'Danh Sách Các Ảnh Bìa của Diễn Đàn',
 
                 'type-title' => [
-                    'default-topic' => 'Ảnh Bìa Mặc Định của Chủ Đề',
+                    'default-topic' => 'Ảnh Bìa Mặc Định cho Bài Viết',
                     'main' => 'Ảnh Bìa của Diễn Đàn',
                 ],
             ],
