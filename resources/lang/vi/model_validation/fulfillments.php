@@ -19,12 +19,12 @@
  */
 
 return [
-    'username_change' => [
-        'only_one' => 'Chỉ được đổi tên tài khoản 1 lần cho mỗi đơn đặt hàng.',
+    'username_change' => 'Thay đổi tên hiển thị'
+        'only_one' => 'Chỉ được đổi tên hiển thị 1 lần cho mỗi đơn đặt hàng.',
         'insufficient_paid' => 'Không đủ tiền để đổi tên tài khoản(:expected > :actual)',
         'reverting_username_mismatch' => 'Tên tài khoản hiện tại (:current) không giống với tên đã đổi, không thể hủy tên (:username)',
     ],
-    'supporter_tag' => [
+    'supporter_tag' => 'suppoerter_tag'
         'insufficient_paid' => 'Không đủ tiền để tặng supporter tag (:actual > :expected)',
     ],
 ];
